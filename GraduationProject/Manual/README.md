@@ -1,4 +1,4 @@
-# Manual Test Cases for QAFox Website
+# Manual Testing for QAFox Website
 
 This repository contains a set of manual test cases for key functionalities of the [QAFox]([https://qafox.com](https://tutorialsninja.com/demo/index.php?route=common/home)) website. The test cases were written to validate core user flows and ensure that the system behaves as expected under different conditions.
 
