@@ -48,7 +48,7 @@ or via TestNG:
 mvn test -DsuiteXmlFile=Runner.xml
  ```
 
-##**✅ Features Covered**
+## **✅ Features Covered**
 - User registration
 
 - Login functionality
@@ -57,18 +57,18 @@ mvn test -DsuiteXmlFile=Runner.xml
 
 - Change password
 
-##**🧪 Cucumber Feature File**
+## **🧪 Cucumber Feature File**
 Located at:
  ```bash
 src/main/resources/Features/Register.feature
  ```
-##**📸 Screenshots**
+## **📸 Screenshots**
 The framework includes a utility to capture screenshots on test failure.
 
-##**📄 Reporting**
+## **📄 Reporting**
 Test reports can be generated via the default TestNG and Cucumber plugins. Integration with advanced reporting tools like Allure or ExtentReports can be added as needed.
 
-##**📌 Notes**
+## **📌 Notes**
 - Java version: 23 (as specified in pom.xml)
 
 - Target browser and environment configs can be enhanced by externalizing into properties files or using WebDriverManager.
