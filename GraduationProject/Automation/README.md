@@ -14,19 +14,19 @@ This is a Java-based UI automation framework for web applications, designed usin
 ## 📁 Project Structure
 
 Automation/
-│
-├── pom.xml # Maven configuration file
-├── Runner.xml # TestNG XML test runner
-├── src/
-│ ├── main/
-│ │ ├── java/Pages/ # Page Object classes
-│ │ └── java/Utils/ # Utility classes (e.g., Screenshot)
-│ │ └── resources/Features/ # Cucumber feature files
-│ └── test/
-│ ├── java/Base/ # Base test setup
-│ ├── java/StepDefs/ # Step definition files
-│ └── java/Tests/ # Test classes
-└── target/ # Build output directory
+- │
+- ├── pom.xml # Maven configuration file
+- ├── Runner.xml # TestNG XML test runner
+- ├── src/
+- │ ├── main/
+- │ │ ├── java/Pages/ # Page Object classes
+- │ │ └── java/Utils/ # Utility classes (e.g., Screenshot)
+- │ │ └── resources/Features/ # Cucumber feature files
+- │ └── test/
+- │ ├── java/Base/ # Base test setup
+- │ ├── java/StepDefs/ # Step definition files
+- │ └── java/Tests/ # Test classes
+- └── target/ # Build output directory
 
 
 ## 🚀 How to Run the Tests
@@ -48,30 +48,30 @@ or via TestNG:
 mvn test -DsuiteXmlFile=Runner.xml
  ```
 
-✅ Features Covered
-User registration
+##**✅ Features Covered**
+- User registration
 
-Login functionality
+- Login functionality
 
-Add to cart
+- Add to cart
 
-Change password
+- Change password
 
-🧪 Cucumber Feature File
+##**🧪 Cucumber Feature File**
 Located at:
  ```bash
 src/main/resources/Features/Register.feature
  ```
-📸 Screenshots
+##**📸 Screenshots**
 The framework includes a utility to capture screenshots on test failure.
 
-📄 Reporting
+##**📄 Reporting**
 Test reports can be generated via the default TestNG and Cucumber plugins. Integration with advanced reporting tools like Allure or ExtentReports can be added as needed.
 
-📌 Notes
-Java version: 23 (as specified in pom.xml)
+##**📌 Notes**
+- Java version: 23 (as specified in pom.xml)
 
-Target browser and environment configs can be enhanced by externalizing into properties files or using WebDriverManager.
+- Target browser and environment configs can be enhanced by externalizing into properties files or using WebDriverManager.
 
 
 
