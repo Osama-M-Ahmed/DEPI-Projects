@@ -37,11 +37,16 @@ Automation/
    ```bash
    mvn clean install
    
-## Run tests:
+## **Run tests**:
+ ```bash
 mvn test
 
+  ```
+
 or via TestNG:
+ ```bash
 mvn test -DsuiteXmlFile=Runner.xml
+ ```
 
 ✅ Features Covered
 User registration
@@ -54,8 +59,9 @@ Change password
 
 🧪 Cucumber Feature File
 Located at:
+ ```bash
 src/main/resources/Features/Register.feature
-
+ ```
 📸 Screenshots
 The framework includes a utility to capture screenshots on test failure.
 
@@ -66,6 +72,7 @@ Test reports can be generated via the default TestNG and Cucumber plugins. Integ
 Java version: 23 (as specified in pom.xml)
 
 Target browser and environment configs can be enhanced by externalizing into properties files or using WebDriverManager.
+
 
 
 
