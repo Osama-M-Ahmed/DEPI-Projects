@@ -28,9 +28,6 @@ Automation/
 │ └── java/Tests/ # Test classes
 └── target/ # Build output directory
 
-markdown
-Copy
-Edit
 
 ## 🚀 How to Run the Tests
 
@@ -39,18 +36,13 @@ Edit
 2. **Install dependencies**:
    ```bash
    mvn clean install
-Run tests:
-
-bash
-Copy
-Edit
+   
+## Run tests:
 mvn test
-or via TestNG:
 
-bash
-Copy
-Edit
+or via TestNG:
 mvn test -DsuiteXmlFile=Runner.xml
+
 ✅ Features Covered
 User registration
 
@@ -62,11 +54,8 @@ Change password
 
 🧪 Cucumber Feature File
 Located at:
-
-css
-Copy
-Edit
 src/main/resources/Features/Register.feature
+
 📸 Screenshots
 The framework includes a utility to capture screenshots on test failure.
 
@@ -78,13 +67,8 @@ Java version: 23 (as specified in pom.xml)
 
 Target browser and environment configs can be enhanced by externalizing into properties files or using WebDriverManager.
 
-📬 Contribution
-Feel free to fork and raise pull requests for enhancements or bug fixes.
 
-yaml
-Copy
-Edit
 
----
 
-Let me know if you want it saved directly into your project folder as `README.md`.
+
+
